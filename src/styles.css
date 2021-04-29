@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lobster&display=swap");
+.App {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+body {
+  background-image: url(https://i.pinimg.com/originals/4c/3b/3a/4c3b3a8e9c963ddec314acc968548fde.jpg);
+  /* background-color: rgba(245, 245, 146, 0.966); */
+  background-size: auto;
+  margin: auto;
+}
+.main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 1px;
+  padding: 10px;
+  background-color: rgba(151, 208, 255, 0.726);
+  color: rgb(17, 16, 16);
+  /* font-size: 100px; */
+  font-family: "Lobster", cursive;
+  border: 0.5rem solid rgb(71, 49, 49);
+  border-radius: 1rem;
+}
+.head2 {
+  padding: 16px;
+  font-size: 26px;
+  font-family: "Lobster", cursive;
+  color: rgba(22, 20, 20, 0.897);
+  box-shadow: 2px 2px 6px rgb(46, 26, 26);
+  border: 2px solid rgb(20, 20, 20);
+  border-radius: 20px;
+  background-color: rgba(197, 143, 111, 0.589);
+}
+
+.meaning {
+  font-weight: 600;
+  margin: 42px;
+}
+.meaning span {
+  font-family: "Lobster", cursive;
+  border: 2px solid rgb(34, 33, 33);
+  border-radius: 12px;
+  padding: 12px;
+  color: black;
+  font-size: 20px;
+  box-shadow: 2px 3px 7px 1px black;
+  background-color: rgba(197, 143, 111, 0.589);
+}
+input {
+  box-shadow: 1px 1px 2px black;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+}
+.info {
+  text-shadow: 1px 2px 5px black;
+  margin-top: 22px;
+  font-size: 33px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 1rem;
+  background-color: rgba(197, 143, 111, 0.589);
+}
+::placeholder {
+  text-align: left;
+  font-size: 15px;
+}
+.intro {
+  margin-top: 22px;
+  font-size: 25px;
+  font-weight: 500px;
+  cursor: pointer;
+  font-family: "Dancing Script", cursive;
+}
+footer {
+  margin-top: 70px;
+  padding: 2px;
+  box-shadow: 2px 2px 3px black;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: rgba(173, 161, 91, 0.452);
+  font-family: "Dancing Script", cursive;
+}
+.about {
+  padding: 20px;
+  font-size: 25px;
+}
+.foot {
+  font-size: 35px;
+  font-weight: 100px;
+}
+#emojiArr {
+  border: 1.5px solid rgb(0, 0, 0);
+  border-radius: 0.4rem;
+  margin: 2px;
+  background-color: rgba(45, 26, 54, 0.452);
+  box-shadow: 1px 1px 1px 1px rgb(37, 23, 23);
+}
+@media screen and (max-width: 990px) {
+  footer {
+    padding: 2px;
+    font-size: 16px;
+  }
+  .meaning span {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .main {
+    font-size: 22px;
+  }
+
+  .head2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .main {
+    width: 100%;
+    font-size: 24px;
+  }
+  input {
+    font-size: 20px;
+  }
+  footer {
+    padding: 5px;
+    font-size: 12px;
+  }
+  #emojiArr {
+    font-size: 27px;
+  }
+  .meaning span {
+    font-size: 10px;
+  }
+  .about {
+    padding: 20px;
+    font-size: 15px;
+  }
+}
